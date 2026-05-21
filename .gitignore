@@ -1,0 +1,92 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+
+.Python
+env/
+venv/
+ENV/
+venv.bak/
+.env/
+
+# ========================
+# Django
+# ========================
+*.log
+db.sqlite3
+/db.sqlite3
+media/
+staticfiles/
+static/
+*.pot
+*.pyc
+
+# Django migrations (optional - usually NOT ignored in real projects)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# ========================
+# Celery
+# ========================
+celerybeat-schedule
+celerybeat.pid
+
+# ========================
+# Test / Coverage
+# ========================
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+
+# ========================
+# IDEs
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Docker
+# ========================
+docker-compose.override.yml
+
+# ========================
+# Env files
+# ========================
+.env
+.env.*
+!.env.example
+
+# ========================
+# Node (if you use frontend)
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+# PyCharm
+# ========================
+*.iml
+
+# ========================
+# Cache
+# ========================
+*.cache
